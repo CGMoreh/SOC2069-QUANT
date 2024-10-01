@@ -1,41 +1,130 @@
 [
   {
-    "objectID": "Materials/Worksheets/worksheet_w1.html",
-    "href": "Materials/Worksheets/worksheet_w1.html",
-    "title": "Worksheet 1",
+    "objectID": "Materials/Worksheets/worksheet_w2.html",
+    "href": "Materials/Worksheets/worksheet_w2.html",
+    "title": "Week 2 Worksheet",
     "section": "",
-    "text": "Worksheet 1\nWeek 1 worksheet"
+    "text": "By the end of the session, you should be familiar with:\n\nsome important cross-national survey programmes\nhow to find, download and read data documentation, including survey questionnaires\nthe challenges of measuring sociological concepts\nunderstanding the JASP interface\n\n\n\n\nThe lecture has introduced the complexities of measuring sociological concepts. Throughout this short course, we will be using the measurement and estimation of social trust as a guiding example. However, the aim is to help you build up your skills and confidence in asking and addressing research questions of your own, and the assessment questions will ask you to analyse some other chosen research topic.\nIn this first IT workshop, you will begin your data analysis journey by exploring some online sources of cross-national sociological data available for secondary analysis, and you will practice performing basic descriptive analyses of selected variables.\n\n\n\nCreate a folder for this module on your institutional OneDrive (e.g. C:\\OneDrive - Newcastle University\\SOC2069). Within that folder, create a sub-folder called “Data”. You will then be able to save data files and documentation as you progress.\n\n\n\nAbout 20 minutes\n\nNavigate to the The World Values Survey (WVS) website and read about the World Values Survey.\n\n\nDon’t spend too much time browsing the website, but make sure you can answer the following questions:\n\nWhen was the WVS started, and how many waves of data collection have there been so far?\nIn which year(s) did the most recent wave of data collection take place?\nHow many countries were covered by the most recent wave?\nCan you name some of the topics covered by the WVS?\nWhat population are the national samples representative of?\nWhat is the general minimum sample size per country?\nIs the WVS data freely available for academic research purposes?\nDo you need to cite/reference the WVS data if you use it in your research?\nBonus: what is the difference between a time series dataset and a panel dataset, and which of the two can the WVS provide? (tip: look under Data and Documentation &gt; Data Download &gt; Timeseries (1981-2022) for a concise discussion)\n\n\n\nNavigate to Data and Documentation &gt; Data Download &gt; Wave 7 (2017-2022) page and explore the Questionnaire and Documentation. Download the Master Questionnaire and the Codebook documents and using the search function identify all the survey questions and variables that relate to “trust”.\n\n\nQuestions\n\nHow many questions relating to trust have you identified in the questionnaires?\nWhat is the difference between the questionnaire and the codebook?\nIn how many different ways is trust measured in the WVS?\nWhat are, in your opinion, the advantages and disadvantages of the different measurements of trust?\n\n\n\nWithin the “Data” sub-folder you created earlier, create another sub-folder called “WVS7”. You can now save the Master Questionnaire and the Codebook into that folder, and because it is stored on the institutional OneDrive, you will always have access to it on any computer, once you log in to your institutional Microsoft Windows account.\nIn the Select a country panel on the right side of the Wave 7 (2017-2022) page select one country at random and under Data files download the country-specific dataset (for consistency, download the first data type option, CSV (i.e. comma separated values)) to the “WVS7” subfolder you created earlier.\n\n\n\n\nAbout 20 minutes\nLet’s now navigate to The European Social Survey (ESS) and read about the survey. Try to answer to yourself the same questions as in the previous exercise\n\nNavigate to Data and then to the ESS Data Portal &gt; ESS Round 10 - 2020 &gt; ESS10 - Study Documentation. Download the ESS10 Source questionnaires to a newly created sub-folder called “ESS10”, and as in the previous exercise, identify all the survey questions and variables that relate to “trust”.\nNavigate to ESS Data Portal &gt; Datafile Builder (Wizard) and select one country at random at Round 10 (or 10SC). Keep all the variables (do not select any subsets in the “Select Variables” tab) and download the country-specific dataset in CSV format to your “ESS10” folder.\n\n\n\n\n\n\n\nWarning\n\n\n\nTo be able to download data, you will need to register with the European Social Survey. Complete the registration before you can proceed\n\n\nYou now have a large amount of data at your fingertips. After a break, we will explore these data using a statistical software package\n\n\n\nAbout 30 minutes\nOpen the JASP software from the Start menu. If you are using your own laptop, you can install the latest version of JASP from https://jasp-stats.org/.\nThe opening page should look something like this:\n\n\n\n\n\nTo open a dataset stored on your computer, you can navigate to the three horizontal bars (“hamburger”) menu icon &gt; Open &gt; Computer &gt; Browse.\n\n\n\n\n\n\nWarning\n\n\n\nTo be able to see and load the data you downloaded from the WVS and ESS, you need to first extract the files from the compressed folder. Navigate to your Data folder outside the JASP data import window and extract your files, then return to the JASP window to open one of them.\n\n\n\nOpen the “WVS7” dataset. You should now see something like this:\n\n\n\n\n\n\nYou can scroll up-down and left-right in the dataset to have a look at the spreadsheet and its contents.\nIn JASP you can work on one dataset at a time (or in one window). When you finish your analysis, you can save both the data and the outputs you generated as one .jasp file, which you can then open later and continue or alter your analyses.\nToday, we will explore some descriptive statistics using the Descriptives &gt; Descriptive Statistics menu option. If you click through, you should see something like this:\n\n\n\n\n\n\nUsing the survey questionnaire, identify the variable coding “social/generalised trust” and move that variable to the Variables field\nApart from the default Descriptive Statistics table, select Basic plots &gt; Distribution plots as well and interpret the distribution of the variable in your dataset\n\n\nQuestions\n\nHow many levels (categories) does the variable have in your dataset? is it what you had expected based on the questionnaire information?\nDoes the variables have any missing values in your dataset?\nWhat is the “Mode” of the variable, and what does that mean?\nWhat is the “Mean” of the variable, and what does that mean? Is it a useful statistic for this variable?\nWhat percentage of the respondents in your dataset had answered that “Most people can be trusted”?\n\n\nIf you see more than two levels/categories in your variable (and you are sure that you have chosen the correct variable), it means that in your dataset the variable contains some custom missing values. Missing values should be distinguished with a negative sign (e.g. -2). To set them as custom missing values, we can edit the dataset manually.\n\nClick on the Edit Data menu tab and scroll horizontally to your variable. Double-click on the variable column. In the middle tabs, check the label editor and identify any values that should be set as missing (e.g. -2). Click on the Missing values tab &gt; Use custom values and in the narrow field to the right type in the value you want to set as missing and click the + sign. You should be seeing something like below:\n\n\n\n\n\n\nYou can check back in the Label editor that the redundant value is not longer there.\n\nIn the same data editor window we can also make other changes to our variables. For example, let’s change the non-informative variable Name to something that better reflects the meaning of the variable, for example “soc-trust”, and let’s also give it a more descriptive Long name and even a Description if we want to. The Long name could be something like “Social trust”, and for the Description we could copy the original survey question out from the questionnaire: “Q57. Generally speaking, would you say that most people can be trusted or that you need to be very careful in dealing with people?”.\n\nIn the *Label editor we should also attach labels to the values so that we can better read the outputs produced. We can copy the labels from the questionnaire here too: “1 = Most people can be trusted” and “2 = Need to be very careful”.\nYour data editor window should look something like this:\n\n\n\n\n\n\nQuestion\nThe variable measurement level (Column type) appears as Ordinal. Is that correct? If you feel that the variable type should be changed, you can also do that here using the drop-down menu next to Column type.\n\nTo return to your data analysis, you can click on the Analyses menu tab. If you have changed the variable’s name, you can move it back to the Variables field to see the updated outputs.\n\nFind the other variables in the dataset that relate to social, interpersonal or institutional trust, and obtain similar descriptive statistics for them. Try to answer to yourself the same questions as above.\nAdd your notes to the Results output. By clicking on the small black down-arrowheads that appear next to the headings in the Results window when you hover over them with your mouse you can access small menu options that allow you to do various operations with the outputs (copy, save, edit, etc.), including the possibility to Add note. Your note will appear under the item to which it is added, and you can type in your note. The field acts as a basic text editor, which you can use to jot down your interpretation of the results and keep them close to the output. You can add in here your answers to some of the questions above.\n\nYour results and notes could look something like this:\n\n\n\n\n\n\nSame your analysis. Click through Hamburger menu tab &gt; Save as &gt; Computer &gt; Browse and save the analysis in your “WVS7” folder with the name “wvs7-example.jasp” (or anything else that you find useful). Once it’s saved, you can close the analysis. You can now open the .jasp file you saved and continue or modify the analysis you have started.\n\n\n\n\n\n\n\nTip\n\n\n\nFor simplicity we have downloaded the dataset in CSV format, which is a simple plain text format that can be opened with text editors or spreadsheet tools such as Microsoft Excel. However, some other formats that belong to proprietary statistical software packages like SPSS or Stata are likely to store more information (e.g. variable and value label, etc.), and downloading the data in that format and importing it to JASP may make it easier to explore the data without needing to do too many manual changes.\nYou can experiment by downloading the data in another format (Stata appears to be the most stable for importing to JASP) and checking the data editor window.\n\n\n\nNow open a new JASP session and import the “ESS10” dataset you downloaded earlier, and perform a similar descriptive analysis on variables related to social, interpersonal and institutional trust you have done above. When complete, save that analysis to a .jasp file too.\n\n\n\n\nBelow are some research questions that you can choose from to address in Assignment 1:\n\nAre religious people more satisfied with life?\nAre older people more likely to see the death penalty as justifiable?\nWhat factors are associated with opinions about future European Union enlargement among Europeans?\nIs higher internet use associated with stronger anti-immigrant sentiments?\nHow does victimisation relate to trust in the police?\nWhat factors are associated with belief in life after death?\nAre government/public sector employees more inclined to perceive higher levels of corruption than those working in the private sector?\n\nFor now, choose one question that you find most sympathetic (you don’t need to stick with it for the assignment, but you could if you wanted to!). All of the questions can be answered with at least one of the survey datasets that you downloaded (the “WVS7” or “ESS10”) and often they both contain relevant variables.\n\nIdentify your “explanandum” - i.e. the core phenomenon/concept/behaviour/etc. that the research question aims to explain. The questions all postulate a relationship/association between two or more variables (the topic of next week), but for now, think carefully about the question and how it is formulated, and identify which is the variable that will be the target of explanation, and which variable (if mentioned) will be used for explaining it. For example, in the research question “Does education increase social trust?”, the variable we are interested in explaining is “social trust”, while “education” is the variable that we will use to explain it. In later weeks we will develop better vocabulary to describe associations between variables.\nOnce the core phenomenon to be explained is identified, look through the two survey questionnaires to identify any variables that might exist in the dataset that captures it. This may require some trial-and-error with testing out search words.\nOnce you have found one (or several) candidate variable(s), navigate to the relevant survey website and select a single country for which to download data. You will be working with single-country datasets for your assignment. Download the dataset, import it into JASP, find the relevant variable and perform some descriptive analysis on the chosen variable as you have done in the previous exercise.\nMake sure to add your noted and interpretations on the analysis results and save your analysis for later. You could create a new sub-folder for your “Assignment 1” work and save your analysis there for future use. If you end up liking your chosen question, you can continue this analysis next week.",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Worksheet"
+    ]
   },
   {
-    "objectID": "Materials/Notes/notes_w0.html",
-    "href": "Materials/Notes/notes_w0.html",
+    "objectID": "Materials/Worksheets/worksheet_w2.html#learning-outcomes",
+    "href": "Materials/Worksheets/worksheet_w2.html#learning-outcomes",
+    "title": "Week 2 Worksheet",
+    "section": "",
+    "text": "By the end of the session, you should be familiar with:\n\nsome important cross-national survey programmes\nhow to find, download and read data documentation, including survey questionnaires\nthe challenges of measuring sociological concepts\nunderstanding the JASP interface",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Worksheet"
+    ]
+  },
+  {
+    "objectID": "Materials/Worksheets/worksheet_w2.html#intro",
+    "href": "Materials/Worksheets/worksheet_w2.html#intro",
+    "title": "Week 2 Worksheet",
+    "section": "",
+    "text": "The lecture has introduced the complexities of measuring sociological concepts. Throughout this short course, we will be using the measurement and estimation of social trust as a guiding example. However, the aim is to help you build up your skills and confidence in asking and addressing research questions of your own, and the assessment questions will ask you to analyse some other chosen research topic.\nIn this first IT workshop, you will begin your data analysis journey by exploring some online sources of cross-national sociological data available for secondary analysis, and you will practice performing basic descriptive analyses of selected variables.",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Worksheet"
+    ]
+  },
+  {
+    "objectID": "Materials/Worksheets/worksheet_w2.html#exercise-0-create-a-folder-structure-for-this-module",
+    "href": "Materials/Worksheets/worksheet_w2.html#exercise-0-create-a-folder-structure-for-this-module",
+    "title": "Week 2 Worksheet",
+    "section": "",
+    "text": "Create a folder for this module on your institutional OneDrive (e.g. C:\\OneDrive - Newcastle University\\SOC2069). Within that folder, create a sub-folder called “Data”. You will then be able to save data files and documentation as you progress.",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Worksheet"
+    ]
+  },
+  {
+    "objectID": "Materials/Worksheets/worksheet_w2.html#exercise-1-explore-the-world-values-survey-data-documentation",
+    "href": "Materials/Worksheets/worksheet_w2.html#exercise-1-explore-the-world-values-survey-data-documentation",
+    "title": "Week 2 Worksheet",
+    "section": "",
+    "text": "About 20 minutes\n\nNavigate to the The World Values Survey (WVS) website and read about the World Values Survey.\n\n\nDon’t spend too much time browsing the website, but make sure you can answer the following questions:\n\nWhen was the WVS started, and how many waves of data collection have there been so far?\nIn which year(s) did the most recent wave of data collection take place?\nHow many countries were covered by the most recent wave?\nCan you name some of the topics covered by the WVS?\nWhat population are the national samples representative of?\nWhat is the general minimum sample size per country?\nIs the WVS data freely available for academic research purposes?\nDo you need to cite/reference the WVS data if you use it in your research?\nBonus: what is the difference between a time series dataset and a panel dataset, and which of the two can the WVS provide? (tip: look under Data and Documentation &gt; Data Download &gt; Timeseries (1981-2022) for a concise discussion)\n\n\n\nNavigate to Data and Documentation &gt; Data Download &gt; Wave 7 (2017-2022) page and explore the Questionnaire and Documentation. Download the Master Questionnaire and the Codebook documents and using the search function identify all the survey questions and variables that relate to “trust”.\n\n\nQuestions\n\nHow many questions relating to trust have you identified in the questionnaires?\nWhat is the difference between the questionnaire and the codebook?\nIn how many different ways is trust measured in the WVS?\nWhat are, in your opinion, the advantages and disadvantages of the different measurements of trust?\n\n\n\nWithin the “Data” sub-folder you created earlier, create another sub-folder called “WVS7”. You can now save the Master Questionnaire and the Codebook into that folder, and because it is stored on the institutional OneDrive, you will always have access to it on any computer, once you log in to your institutional Microsoft Windows account.\nIn the Select a country panel on the right side of the Wave 7 (2017-2022) page select one country at random and under Data files download the country-specific dataset (for consistency, download the first data type option, CSV (i.e. comma separated values)) to the “WVS7” subfolder you created earlier.",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Worksheet"
+    ]
+  },
+  {
+    "objectID": "Materials/Worksheets/worksheet_w2.html#exercise-2-explore-the-european-social-survey-data-documentation",
+    "href": "Materials/Worksheets/worksheet_w2.html#exercise-2-explore-the-european-social-survey-data-documentation",
+    "title": "Week 2 Worksheet",
+    "section": "",
+    "text": "About 20 minutes\nLet’s now navigate to The European Social Survey (ESS) and read about the survey. Try to answer to yourself the same questions as in the previous exercise\n\nNavigate to Data and then to the ESS Data Portal &gt; ESS Round 10 - 2020 &gt; ESS10 - Study Documentation. Download the ESS10 Source questionnaires to a newly created sub-folder called “ESS10”, and as in the previous exercise, identify all the survey questions and variables that relate to “trust”.\nNavigate to ESS Data Portal &gt; Datafile Builder (Wizard) and select one country at random at Round 10 (or 10SC). Keep all the variables (do not select any subsets in the “Select Variables” tab) and download the country-specific dataset in CSV format to your “ESS10” folder.\n\n\n\n\n\n\n\nWarning\n\n\n\nTo be able to download data, you will need to register with the European Social Survey. Complete the registration before you can proceed\n\n\nYou now have a large amount of data at your fingertips. After a break, we will explore these data using a statistical software package",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Worksheet"
+    ]
+  },
+  {
+    "objectID": "Materials/Worksheets/worksheet_w2.html#exercise-3-describing-trust-using-jasp",
+    "href": "Materials/Worksheets/worksheet_w2.html#exercise-3-describing-trust-using-jasp",
+    "title": "Week 2 Worksheet",
+    "section": "",
+    "text": "About 30 minutes\nOpen the JASP software from the Start menu. If you are using your own laptop, you can install the latest version of JASP from https://jasp-stats.org/.\nThe opening page should look something like this:\n\n\n\n\n\nTo open a dataset stored on your computer, you can navigate to the three horizontal bars (“hamburger”) menu icon &gt; Open &gt; Computer &gt; Browse.\n\n\n\n\n\n\nWarning\n\n\n\nTo be able to see and load the data you downloaded from the WVS and ESS, you need to first extract the files from the compressed folder. Navigate to your Data folder outside the JASP data import window and extract your files, then return to the JASP window to open one of them.\n\n\n\nOpen the “WVS7” dataset. You should now see something like this:\n\n\n\n\n\n\nYou can scroll up-down and left-right in the dataset to have a look at the spreadsheet and its contents.\nIn JASP you can work on one dataset at a time (or in one window). When you finish your analysis, you can save both the data and the outputs you generated as one .jasp file, which you can then open later and continue or alter your analyses.\nToday, we will explore some descriptive statistics using the Descriptives &gt; Descriptive Statistics menu option. If you click through, you should see something like this:\n\n\n\n\n\n\nUsing the survey questionnaire, identify the variable coding “social/generalised trust” and move that variable to the Variables field\nApart from the default Descriptive Statistics table, select Basic plots &gt; Distribution plots as well and interpret the distribution of the variable in your dataset\n\n\nQuestions\n\nHow many levels (categories) does the variable have in your dataset? is it what you had expected based on the questionnaire information?\nDoes the variables have any missing values in your dataset?\nWhat is the “Mode” of the variable, and what does that mean?\nWhat is the “Mean” of the variable, and what does that mean? Is it a useful statistic for this variable?\nWhat percentage of the respondents in your dataset had answered that “Most people can be trusted”?\n\n\nIf you see more than two levels/categories in your variable (and you are sure that you have chosen the correct variable), it means that in your dataset the variable contains some custom missing values. Missing values should be distinguished with a negative sign (e.g. -2). To set them as custom missing values, we can edit the dataset manually.\n\nClick on the Edit Data menu tab and scroll horizontally to your variable. Double-click on the variable column. In the middle tabs, check the label editor and identify any values that should be set as missing (e.g. -2). Click on the Missing values tab &gt; Use custom values and in the narrow field to the right type in the value you want to set as missing and click the + sign. You should be seeing something like below:\n\n\n\n\n\n\nYou can check back in the Label editor that the redundant value is not longer there.\n\nIn the same data editor window we can also make other changes to our variables. For example, let’s change the non-informative variable Name to something that better reflects the meaning of the variable, for example “soc-trust”, and let’s also give it a more descriptive Long name and even a Description if we want to. The Long name could be something like “Social trust”, and for the Description we could copy the original survey question out from the questionnaire: “Q57. Generally speaking, would you say that most people can be trusted or that you need to be very careful in dealing with people?”.\n\nIn the *Label editor we should also attach labels to the values so that we can better read the outputs produced. We can copy the labels from the questionnaire here too: “1 = Most people can be trusted” and “2 = Need to be very careful”.\nYour data editor window should look something like this:\n\n\n\n\n\n\nQuestion\nThe variable measurement level (Column type) appears as Ordinal. Is that correct? If you feel that the variable type should be changed, you can also do that here using the drop-down menu next to Column type.\n\nTo return to your data analysis, you can click on the Analyses menu tab. If you have changed the variable’s name, you can move it back to the Variables field to see the updated outputs.\n\nFind the other variables in the dataset that relate to social, interpersonal or institutional trust, and obtain similar descriptive statistics for them. Try to answer to yourself the same questions as above.\nAdd your notes to the Results output. By clicking on the small black down-arrowheads that appear next to the headings in the Results window when you hover over them with your mouse you can access small menu options that allow you to do various operations with the outputs (copy, save, edit, etc.), including the possibility to Add note. Your note will appear under the item to which it is added, and you can type in your note. The field acts as a basic text editor, which you can use to jot down your interpretation of the results and keep them close to the output. You can add in here your answers to some of the questions above.\n\nYour results and notes could look something like this:\n\n\n\n\n\n\nSame your analysis. Click through Hamburger menu tab &gt; Save as &gt; Computer &gt; Browse and save the analysis in your “WVS7” folder with the name “wvs7-example.jasp” (or anything else that you find useful). Once it’s saved, you can close the analysis. You can now open the .jasp file you saved and continue or modify the analysis you have started.\n\n\n\n\n\n\n\nTip\n\n\n\nFor simplicity we have downloaded the dataset in CSV format, which is a simple plain text format that can be opened with text editors or spreadsheet tools such as Microsoft Excel. However, some other formats that belong to proprietary statistical software packages like SPSS or Stata are likely to store more information (e.g. variable and value label, etc.), and downloading the data in that format and importing it to JASP may make it easier to explore the data without needing to do too many manual changes.\nYou can experiment by downloading the data in another format (Stata appears to be the most stable for importing to JASP) and checking the data editor window.\n\n\n\nNow open a new JASP session and import the “ESS10” dataset you downloaded earlier, and perform a similar descriptive analysis on variables related to social, interpersonal and institutional trust you have done above. When complete, save that analysis to a .jasp file too.",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Worksheet"
+    ]
+  },
+  {
+    "objectID": "Materials/Worksheets/worksheet_w2.html#exercise-4-begin-your-analysis-for-assignment-1",
+    "href": "Materials/Worksheets/worksheet_w2.html#exercise-4-begin-your-analysis-for-assignment-1",
+    "title": "Week 2 Worksheet",
+    "section": "",
+    "text": "Below are some research questions that you can choose from to address in Assignment 1:\n\nAre religious people more satisfied with life?\nAre older people more likely to see the death penalty as justifiable?\nWhat factors are associated with opinions about future European Union enlargement among Europeans?\nIs higher internet use associated with stronger anti-immigrant sentiments?\nHow does victimisation relate to trust in the police?\nWhat factors are associated with belief in life after death?\nAre government/public sector employees more inclined to perceive higher levels of corruption than those working in the private sector?\n\nFor now, choose one question that you find most sympathetic (you don’t need to stick with it for the assignment, but you could if you wanted to!). All of the questions can be answered with at least one of the survey datasets that you downloaded (the “WVS7” or “ESS10”) and often they both contain relevant variables.\n\nIdentify your “explanandum” - i.e. the core phenomenon/concept/behaviour/etc. that the research question aims to explain. The questions all postulate a relationship/association between two or more variables (the topic of next week), but for now, think carefully about the question and how it is formulated, and identify which is the variable that will be the target of explanation, and which variable (if mentioned) will be used for explaining it. For example, in the research question “Does education increase social trust?”, the variable we are interested in explaining is “social trust”, while “education” is the variable that we will use to explain it. In later weeks we will develop better vocabulary to describe associations between variables.\nOnce the core phenomenon to be explained is identified, look through the two survey questionnaires to identify any variables that might exist in the dataset that captures it. This may require some trial-and-error with testing out search words.\nOnce you have found one (or several) candidate variable(s), navigate to the relevant survey website and select a single country for which to download data. You will be working with single-country datasets for your assignment. Download the dataset, import it into JASP, find the relevant variable and perform some descriptive analysis on the chosen variable as you have done in the previous exercise.\nMake sure to add your noted and interpretations on the analysis results and save your analysis for later. You could create a new sub-folder for your “Assignment 1” work and save your analysis there for future use. If you end up liking your chosen question, you can continue this analysis next week.",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Worksheet"
+    ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w1.html",
+    "href": "Materials/Notes/notes_w1.html",
     "title": "Introduction",
     "section": "",
     "text": "Welcome to the module! This introductory lecture provides an overview of both components - quantitative and qualitative research methods - of the module. The slides below focus specifically on the quantitative component to which this website is dedicated.\n\n\nThis is an embedded &lt;a target=\"_blank\" href=\"https://office.com\"&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=\"_blank\" href=\"https://office.com/webapps\"&gt;Office&lt;/a&gt;.",
     "crumbs": [
       "Materials",
-      "Week 0",
-      "Slides and Notes"
+      "Week 1",
+      "Introduction"
     ]
   },
   {
-    "objectID": "Materials/Notes/notes_w0.html#lecture-slides",
-    "href": "Materials/Notes/notes_w0.html#lecture-slides",
+    "objectID": "Materials/Notes/notes_w1.html#lecture-slides",
+    "href": "Materials/Notes/notes_w1.html#lecture-slides",
     "title": "Introduction",
     "section": "",
     "text": "This is an embedded &lt;a target=\"_blank\" href=\"https://office.com\"&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=\"_blank\" href=\"https://office.com/webapps\"&gt;Office&lt;/a&gt;.",
     "crumbs": [
       "Materials",
-      "Week 0",
-      "Slides and Notes"
+      "Week 1",
+      "Introduction"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "SOC2069-QUANT",
+    "title": "**SOC2069** {{< fa solid chart-line >}} Quantitative Methods",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "SOC2069 (Researching Social Life) is a 2nd-year undergraduate module (i.e. course) for Sociology and Politics and Sociology students at Newcastle University (UK). The module consists of two parts: one one quantitative methods and one on qualitative methods. This site hosts materials pertaining to the quantitative methods part of the module delivered over five weeks in the Autumn semester."
   },
   {
     "objectID": "about.html",
@@ -47,26 +136,36 @@
   {
     "objectID": "Materials/index.html",
     "href": "Materials/index.html",
-    "title": "Weekly materials",
+    "title": "**SOC2069** {{< fa solid chart-line >}} Quantitative Methods",
     "section": "",
-    "text": "Week\nDate\nTopic\nNotes\nSlides\nWorksheets\n\n\n\n\nWeek 0\n24 September 2024\nIntroduction: Statistics, data and models\n\n\n\n\n\nWeek 1\n01 October 2024\nMeasurement and Description\n\n\n\n\n\nWeek 2\n08 October 2024\nComparisons and Associations\n\n\n\n\n\nWeek 3\n15 October 2024\nModelling continuous outcomes\n\n\n\n\n\nWeek 4\n22 October 2024\nModelling binary outcomes\n\n\n\n\n\nWeek 5\n29 October 2024\nUncertainty and Inference",
+    "text": "Week\nDate\nTopic\nNotes\nSlides\nWorksheets\n\n\n\n\nWeek 1\n01 October 2024\nIntroduction: Statistics, data and models\n\n\n\n\n\nWeek 2\n08 October 2024\nMeasurement and Description\n\n  \n\n\n\nWeek 3\n15 October 2024\nComparisons and Associations\n  \n  \n  \n\n\nWeek 4\n22 October 2024\nModelling continuous outcomes\n  \n  \n  \n\n\nWeek 5\n29 October 2024\nModelling binary outcomes\n  \n  \n  \n\n\nWeek 6\n05 November 2024\nUncertainty and Inference",
     "crumbs": [
       "Materials",
-      "Weekly materials"
+      "Outline and materials"
     ]
   },
   {
-    "objectID": "Materials/Notes/notes_w1.html",
-    "href": "Materials/Notes/notes_w1.html",
+    "objectID": "Materials/Notes/notes_w2.html",
+    "href": "Materials/Notes/notes_w2.html",
     "title": "Some notes on Week 1",
     "section": "",
-    "text": "Readings etc."
+    "text": "Readings etc.",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Slides and Notes"
+    ]
   },
   {
-    "objectID": "Materials/Notes/notes_w1.html#my-notes",
-    "href": "Materials/Notes/notes_w1.html#my-notes",
+    "objectID": "Materials/Notes/notes_w2.html#my-notes",
+    "href": "Materials/Notes/notes_w2.html#my-notes",
     "title": "Some notes on Week 1",
     "section": "",
-    "text": "Readings etc."
+    "text": "Readings etc.",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Slides and Notes"
+    ]
   }
 ]
