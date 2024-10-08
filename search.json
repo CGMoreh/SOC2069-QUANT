@@ -100,7 +100,7 @@
     "href": "Materials/Notes/notes_w1.html",
     "title": "Introduction",
     "section": "",
-    "text": "Welcome to the module! This introductory lecture provides an overview of both components - quantitative and qualitative research methods - of the module. The slides below focus specifically on the quantitative component to which this website is dedicated.\n\n\nThis is an embedded &lt;a target=\"_blank\" href=\"https://office.com\"&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=\"_blank\" href=\"https://office.com/webapps\"&gt;Office&lt;/a&gt;.",
+    "text": "Welcome to the module! This introductory lecture provides an overview of both components - quantitative and qualitative research methods - of the module. The slides below focus specifically on the quantitative component to which this website is dedicated.\n\n\nThis is an embedded &lt;a target=\"_blank\" href=\"https://office.com\"&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=\"_blank\" href=\"https://office.com/webapps\"&gt;Office&lt;/a&gt;.\n Download the slides",
     "crumbs": [
       "Materials",
       "Week 1",
@@ -112,7 +112,7 @@
     "href": "Materials/Notes/notes_w1.html#lecture-slides",
     "title": "Introduction",
     "section": "",
-    "text": "This is an embedded &lt;a target=\"_blank\" href=\"https://office.com\"&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=\"_blank\" href=\"https://office.com/webapps\"&gt;Office&lt;/a&gt;.",
+    "text": "This is an embedded &lt;a target=\"_blank\" href=\"https://office.com\"&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=\"_blank\" href=\"https://office.com/webapps\"&gt;Office&lt;/a&gt;.\n Download the slides",
     "crumbs": [
       "Materials",
       "Week 1",
@@ -143,5 +143,98 @@
       "Materials",
       "Outline and materials"
     ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w2.html",
+    "href": "Materials/Notes/notes_w2.html",
+    "title": "Measurement and Description",
+    "section": "",
+    "text": "We begin our exploration of quantitative methods in sociology (and the social sciences more broadly) by thinking carefully about how we make the passage from theory and concepts to empirical data. For concepts to be explored empirically (not just theoretically), we need to operationalise them. The lecture introduces some core ideas behind social measurement in general. In the IT workshop, we will look more carefully at examples of how “social trust” has been conceptualised, operationalised and measured in practice.\nOnce empirical data have been collected, a first step in their analysis is to explore and describe the recorded variables using appropriate descriptive statistics. It may be that our research question is a very simple one and the whole purpose of the research was to describe the distribution of a measured concept or phenomenon. In most cases, however, descriptive statistics are but the first – albeit essential – step in the analytic process. In real-life research scenarios, we are more interested in drawing comparisons between cases and identifying associations (relationships) between various concepts and phenomena. That will be the topic of week 3.\n\n\nStatistics:\n\nIMS: Chapters 1 (“Data”) and 2 (“Study design”)\n\nApplication:\n\nUslaner, E. M. 2012. Chapter 7 (“Measuring generalized trust: in defense of the ‘standard’ question”, pp. 72-82) in Lyon, Fergus, Guido Möllering, and M. N. K. Saunders, eds. 2012. Handbook of Research Methods on Trust. Northampton, Mass: Edward Elgar Pub.\nDelhey, Jan, Kenneth Newton, and Christian Welzel. 2011. “How General Is Trust in ‘Most People’? Solving the Radius of Trust Problem.” American Sociological Review 76(5): 786–807.\nBekkers, René, and Bart Sandberg. 2018. “Grading Generalized Trust Across Europe.” Paper presented at The 6th ESS Workshop in The Hague, 16th March 2018. Available at: https://osf.io/qntze\n\nAdvanced topics:\n\nRobbins, Blaine G. 2022. “Measuring Generalized Trust: Two New Approaches.” Sociological Methods & Research 51(1): 305–56.\nRobbins, Blaine G. 2024. “An Empirical Comparison of Four Generalized Trust Scales: Test–Retest Reliability, Measurement Invariance, Predictive Validity, and Replicability.” Sociological Methods & Research 53(2): 760–803.\n\nFurther reading:\n\nStevens, S. S. 1946. “On the Theory of Scales of Measurement.” Science 103(2684): 677–80.\nDuncan, Otis Dudley. 1984. Notes on Social Measurement: Historical and Critical. New York: Russell Sage Foundation. (especially Chapter 4 discussing and criticising Stevens (1946))\n\n\n\n\nThis is an embedded &lt;a target=\"_blank\" href=\"https://office.com\"&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=\"_blank\" href=\"https://office.com/webapps\"&gt;Office&lt;/a&gt;.\n Download the slides",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Slides and Notes"
+    ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w2.html#readings",
+    "href": "Materials/Notes/notes_w2.html#readings",
+    "title": "Measurement and Description",
+    "section": "",
+    "text": "Statistics:\n\nIMS: Chapters 1 (“Data”) and 2 (“Study design”)\n\nApplication:\n\nUslaner, E. M. 2012. Chapter 7 (“Measuring generalized trust: in defense of the ‘standard’ question”, pp. 72-82) in Lyon, Fergus, Guido Möllering, and M. N. K. Saunders, eds. 2012. Handbook of Research Methods on Trust. Northampton, Mass: Edward Elgar Pub.\nDelhey, Jan, Kenneth Newton, and Christian Welzel. 2011. “How General Is Trust in ‘Most People’? Solving the Radius of Trust Problem.” American Sociological Review 76(5): 786–807.\nBekkers, René, and Bart Sandberg. 2018. “Grading Generalized Trust Across Europe.” Paper presented at The 6th ESS Workshop in The Hague, 16th March 2018. Available at: https://osf.io/qntze\n\nAdvanced topics:\n\nRobbins, Blaine G. 2022. “Measuring Generalized Trust: Two New Approaches.” Sociological Methods & Research 51(1): 305–56.\nRobbins, Blaine G. 2024. “An Empirical Comparison of Four Generalized Trust Scales: Test–Retest Reliability, Measurement Invariance, Predictive Validity, and Replicability.” Sociological Methods & Research 53(2): 760–803.\n\nFurther reading:\n\nStevens, S. S. 1946. “On the Theory of Scales of Measurement.” Science 103(2684): 677–80.\nDuncan, Otis Dudley. 1984. Notes on Social Measurement: Historical and Critical. New York: Russell Sage Foundation. (especially Chapter 4 discussing and criticising Stevens (1946))",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Slides and Notes"
+    ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w2.html#lecture-slides",
+    "href": "Materials/Notes/notes_w2.html#lecture-slides",
+    "title": "Measurement and Description",
+    "section": "",
+    "text": "This is an embedded &lt;a target=\"_blank\" href=\"https://office.com\"&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=\"_blank\" href=\"https://office.com/webapps\"&gt;Office&lt;/a&gt;.\n Download the slides",
+    "crumbs": [
+      "Materials",
+      "Week 2",
+      "[W2] Slides and Notes"
+    ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w3.html",
+    "href": "Materials/Notes/notes_w3.html",
+    "title": "Comparisons and Associations",
+    "section": "",
+    "text": "Drawing comparisons and identifying associations between variables underpins most quantitative sociological analyses. While in week 2 we practiced describing variables individually, we now focus on describing variables in relation to one another. We make further steps in understanding the concept of “social trust” by exploring various factors that appear associated with it. Identifying associations and patterns in a dataset, and setting up new research hypothesis based on them is often the most that we can realistically do with our data.\nMost often than not, however, our true aim is to set up a statistical model that can be used for making predictions or testing causal relationships about our phenomenon of interest. We will explore these aims and their limits over the next two weeks in exploring how we can make more directed comparisons and identify cleaner associations using regression techniques.\n\n\nStatistics:\n\nIMS: Chapters 4 (“Exploring categorical data”) and 5 (“Exploring numerical data”)\n\nApplication:\n\nChapter 4 (“Community life and social relations”, pp. 49-62) in Wilkinson, Richard G., and Kate Pickett. 2010. The Spirit Level: Why Greater Equality Makes Societies Stronger. New York: Bloomsbury Press.\nDelhey, Jan, and Kenneth Newton. 2005. “Predicting Cross-National Levels of Social Trust: Global Pattern or Nordic Exceptionalism?” European Sociological Review 21(4): 311–27\n\nFurther reading:\n\nDinesen, Peter Thisted, and René Bekkers. 2017. “The Foundations of Individuals’ Generalized Social Trust: A Review.” Pp. 77–100 in Trust in Social Dilemmas, edited by P. A. M. van Lange, B. Rockenbach, and T. Yamagishi. New York, NY: Oxford University Press.\n\n\n\n\n\n Download the slides",
+    "crumbs": [
+      "Materials",
+      "Week 3",
+      "[W3] Slides and Notes"
+    ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w3.html#readings",
+    "href": "Materials/Notes/notes_w3.html#readings",
+    "title": "Comparisons and Associations",
+    "section": "",
+    "text": "Statistics:\n\nIMS: Chapters 4 (“Exploring categorical data”) and 5 (“Exploring numerical data”)\n\nApplication:\n\nChapter 4 (“Community life and social relations”, pp. 49-62) in Wilkinson, Richard G., and Kate Pickett. 2010. The Spirit Level: Why Greater Equality Makes Societies Stronger. New York: Bloomsbury Press.\nDelhey, Jan, and Kenneth Newton. 2005. “Predicting Cross-National Levels of Social Trust: Global Pattern or Nordic Exceptionalism?” European Sociological Review 21(4): 311–27\n\nFurther reading:\n\nDinesen, Peter Thisted, and René Bekkers. 2017. “The Foundations of Individuals’ Generalized Social Trust: A Review.” Pp. 77–100 in Trust in Social Dilemmas, edited by P. A. M. van Lange, B. Rockenbach, and T. Yamagishi. New York, NY: Oxford University Press.",
+    "crumbs": [
+      "Materials",
+      "Week 3",
+      "[W3] Slides and Notes"
+    ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w3.html#lecture-slides",
+    "href": "Materials/Notes/notes_w3.html#lecture-slides",
+    "title": "Comparisons and Associations",
+    "section": "",
+    "text": "Download the slides",
+    "crumbs": [
+      "Materials",
+      "Week 3",
+      "[W3] Slides and Notes"
+    ]
+  },
+  {
+    "objectID": "Data/index.html",
+    "href": "Data/index.html",
+    "title": "SOC2069 Quantitative Datasets",
+    "section": "",
+    "text": "Workshop data\n\n\n\n\n\n\n Trust & Inequality: trust_inequality.dta – Download\n\n\n\n\n\nThis dataset combines data on “generalised/social trust” from the latest waves of the World Values Survey and the European Values Study with macro(country)-level data on World Development Indicators (WDI) provided by the World Bank. The main variables of interest taken from the WDI refer to measurements of economic inequality within countries. The dataset allows to replicate - using the latest available data - the analysis of the relationship between inequality and trust presented in Chapter 4 (“Community life and social relations”, pp. 49-62) of Wilkinson and Pickett (2010).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReferences\n\nWilkinson RG and Pickett K (2010) The Spirit Level: Why Greater Equality Makes Societies Stronger. New York: Bloomsbury Press."
+  },
+  {
+    "objectID": "Data/index.html#datasets",
+    "href": "Data/index.html#datasets",
+    "title": "SOC2069 Quantitative Datasets",
+    "section": "",
+    "text": "These are real-life data from large-scale nationally representative surveys that include variables relating to (social) trust. The datasets have been prepared for use in lab exercises and the assignment. The original raw data files are freely available for research purposes from their respective data repositories, but they generally require registration before the data can be accessed.\nThe datasets listed on this page are slightly processed versions of the raw data to make them more easily usable by students. Typically, variable types have been corrected and labels have been imported to R; the number of variables were reduced to include those of the greatest potential interest to sociology students. Variable names and coding have not been altered, so that students can rely on the survey documentation (questionnaires, codebooks) to better understand the variables in the dataset.\nThe codebooks shown on this page describe the processed datasets. The processed datasets can be downloaded by students from the module’s institutional Canvas page for the purpose of coursework, but for all other research purposes students are asked to download the original raw data from the data repositories. The R code available on this page can be run on the raw data to reproduce the processed datasets and can serve as a basis for further data wrangling.\nAvailable datasets for download:\n\nWorld Values Survey, Wave 7: wvs7.rds – Download\nEuropean Values Study, 2017: evs2017.rds – Download\nEuropean Social Survey, Round 10, 2020: ess10.rds – Download\nInternational Social Survey Programme, 2020: issp2020.rds – Download\nBritish Social Attitudes Study, 2020: bsa2020.rds – Download\n\n\n Download data \n\n\nWVS 7\n\n\nEVS 2017\n\n\nESS 10, 2020\n\n\nISSP, 2020\n\n\nBSA, 2020"
+  },
+  {
+    "objectID": "Data/index.html#assignment-data",
+    "href": "Data/index.html#assignment-data",
+    "title": "SOC2069 Quantitative Datasets",
+    "section": "Assignment data",
+    "text": "Assignment data\nThese are real-life data from large-scale nationally representative surveys that include variables relating to (social) trust. The datasets have been prepared for use in lab exercises and the assignment. The original raw data files are freely available for research purposes from their respective data repositories, but they generally require registration before the data can be accessed.\nThe datasets listed on this page are slightly processed versions of the raw data to make them more easily usable by students. Typically, variable types have been corrected and labels have been imported to R; the number of variables were reduced to include those of the greatest potential interest to sociology students. Variable names and coding have not been altered, so that students can rely on the survey documentation (questionnaires, codebooks) to better understand the variables in the dataset.\nThe codebooks shown on this page describe the processed datasets. The processed datasets can be downloaded by students from the module’s institutional Canvas page for the purpose of coursework, but for all other research purposes students are asked to download the original raw data from the data repositories. The R code available on this page can be run on the raw data to reproduce the processed datasets and can serve as a basis for further data wrangling.\nAvailable datasets for download:\n\nWorld Values Survey, Wave 7: wvs7.rds – Download\nEuropean Values Study, 2017: evs2017.rds – Download\nEuropean Social Survey, Round 10, 2020: ess10.rds – Download\nInternational Social Survey Programme, 2020: issp2020.rds – Download\nBritish Social Attitudes Study, 2020: bsa2020.rds – Download\n\n\n Download data \n\n\nWVS 7\n\n\nEVS 2017\n\n\nESS 10, 2020\n\n\nISSP, 2020\n\n\nBSA, 2020"
   }
 ]
