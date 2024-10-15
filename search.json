@@ -181,7 +181,7 @@
     "href": "Materials/index.html",
     "title": "**SOC2069** {{< fa solid chart-line >}} Quantitative Methods",
     "section": "",
-    "text": "Week\nDate\nTopic\nNotes\nSlides\nWorksheets\n\n\n\n\nWeek 1\n01 October 2024\nIntroduction: Statistics, data and models\n\n\n\n\n\nWeek 2\n08 October 2024\nMeasurement and Description\n\n\n\n\n\nWeek 3\n15 October 2024\nComparisons and Associations\n\n\n\n\n\nWeek 4\n22 October 2024\nModelling continuous outcomes\n  \n  \n  \n\n\nWeek 5\n29 October 2024\nModelling binary outcomes\n  \n  \n  \n\n\nWeek 6\n05 November 2024\nUncertainty and Inference",
+    "text": "Week\nDate\nTopic\nNotes\nSlides\nWorksheets\n\n\n\n\nWeek 1\n01 October 2024\nIntroduction: Statistics, data and models\n\n\n\n\n\nWeek 2\n08 October 2024\nMeasurement and Description\n\n\n\n\n\nWeek 3\n15 October 2024\nComparisons and Associations\n\n\n\n\n\nWeek 4\n22 October 2024\nModelling continuous outcomes\n\n\n\n\n\nWeek 5\n29 October 2024\nModelling binary outcomes\n  \n  \n  \n\n\nWeek 6\n05 November 2024\nUncertainty and Inference",
     "crumbs": [
       "Materials",
       "Outline and materials"
@@ -389,6 +389,42 @@
       "Materials",
       "Week 4",
       "[W4] Worksheet"
+    ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w4.html",
+    "href": "Materials/Notes/notes_w4.html",
+    "title": "Modelling continuous outcomes",
+    "section": "",
+    "text": "Linear regression modelling is one of the most ubiquitous methods applied in the social sciences. It applies to cases where the phenomenon we aim to understand and describe (model) is ideally measured on a continuous numeric scale. This will be our “dependent” or “outcome” variable (our “explanandum”, the variable we want to explain). Regression modelling allows us to quantify the association between one or several explanatory (“independent”) variables and our outcome variable. This allows us to summarise associations and draw comparisons in our data more efficiently and to establish testable hypotheses about potential causal relationships. In the workshop we will scratch the surface of this versatile and foundational statistical method.\n\n\nStatistics:\n\nIMS: Chapter 7 (“Linear regression with a single predictor”) and Chapter 8 (“Linear regression with multiple predictors”)\n\nApplication:\n\nChapter 4 (“Community life and social relations”, pp. 49-62) in Wilkinson, Richard G., and Kate Pickett. 2010. The Spirit Level: Why Greater Equality Makes Societies Stronger. New York: Bloomsbury Press.\n\nLibrary link: https://libsearch.ncl.ac.uk/permalink/f/rm84mo/NCL_ALMA21184871930002411\nDownload the chapter in PDF: Pages from Wilkinson and Pickett (2010).pdf\n\nDelhey, Jan, and Kenneth Newton. 2005. “Predicting Cross-National Levels of Social Trust: Global Pattern or Nordic Exceptionalism?” European Sociological Review 21(4): 311–27.\n\nLibrary link: https://libsearch.ncl.ac.uk/permalink/f/15e3e4n/TN_cdi_proquest_miscellaneous_60098263\nDownload PDF: Delhey & Newton (2005) Predicting trust\n\nÖsterman, Marcus. 2021. “Can We Trust Education for Fostering Trust? Quasi-Experimental Evidence on the Effect of Education and Tracking on Social Trust.” Social Indicators Research 154(1): 211–33.\n\nLibrary link: https://libsearch.ncl.ac.uk/permalink/f/15e3e4n/TN_cdi_springer_journals_10_1007_s11205_020_02529_y\nDownload PDF: Osterman (2021)\nPlus, the Electronic supplementary material: https://link.springer.com/article/10.1007/s11205-020-02529-y#Sec15\n\n\nAdvanced topics:\n\nBrambor, T., W. R. Clark, and M. Golder. 2006. “Understanding Interaction Models: Improving Empirical Analyses.” Political Analysis 14(1): 63–82.\n\nLibrary link: https://ncl.alma.exlibrisgroup.com/leganto/public/44NEW_INST/citation/17130882680002411?auth=multiple.\n\nClark, William Roberts, and Matt Golder. 2023. Interaction Models: Specification and Interpretation. Cambridge: Cambridge University Press.\n\nLibrary link: https://ncl.alma.exlibrisgroup.com/leganto/public/44NEW_INST/citation/17130893350002411?auth=multiple.\n\n\n\n\n\n Download the slides",
+    "crumbs": [
+      "Materials",
+      "Week 4",
+      "[W4] Slides and Notes"
+    ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w4.html#readings",
+    "href": "Materials/Notes/notes_w4.html#readings",
+    "title": "Modelling continuous outcomes",
+    "section": "",
+    "text": "Statistics:\n\nIMS: Chapter 7 (“Linear regression with a single predictor”) and Chapter 8 (“Linear regression with multiple predictors”)\n\nApplication:\n\nChapter 4 (“Community life and social relations”, pp. 49-62) in Wilkinson, Richard G., and Kate Pickett. 2010. The Spirit Level: Why Greater Equality Makes Societies Stronger. New York: Bloomsbury Press.\n\nLibrary link: https://libsearch.ncl.ac.uk/permalink/f/rm84mo/NCL_ALMA21184871930002411\nDownload the chapter in PDF: Pages from Wilkinson and Pickett (2010).pdf\n\nDelhey, Jan, and Kenneth Newton. 2005. “Predicting Cross-National Levels of Social Trust: Global Pattern or Nordic Exceptionalism?” European Sociological Review 21(4): 311–27.\n\nLibrary link: https://libsearch.ncl.ac.uk/permalink/f/15e3e4n/TN_cdi_proquest_miscellaneous_60098263\nDownload PDF: Delhey & Newton (2005) Predicting trust\n\nÖsterman, Marcus. 2021. “Can We Trust Education for Fostering Trust? Quasi-Experimental Evidence on the Effect of Education and Tracking on Social Trust.” Social Indicators Research 154(1): 211–33.\n\nLibrary link: https://libsearch.ncl.ac.uk/permalink/f/15e3e4n/TN_cdi_springer_journals_10_1007_s11205_020_02529_y\nDownload PDF: Osterman (2021)\nPlus, the Electronic supplementary material: https://link.springer.com/article/10.1007/s11205-020-02529-y#Sec15\n\n\nAdvanced topics:\n\nBrambor, T., W. R. Clark, and M. Golder. 2006. “Understanding Interaction Models: Improving Empirical Analyses.” Political Analysis 14(1): 63–82.\n\nLibrary link: https://ncl.alma.exlibrisgroup.com/leganto/public/44NEW_INST/citation/17130882680002411?auth=multiple.\n\nClark, William Roberts, and Matt Golder. 2023. Interaction Models: Specification and Interpretation. Cambridge: Cambridge University Press.\n\nLibrary link: https://ncl.alma.exlibrisgroup.com/leganto/public/44NEW_INST/citation/17130893350002411?auth=multiple.",
+    "crumbs": [
+      "Materials",
+      "Week 4",
+      "[W4] Slides and Notes"
+    ]
+  },
+  {
+    "objectID": "Materials/Notes/notes_w4.html#lecture-slides",
+    "href": "Materials/Notes/notes_w4.html#lecture-slides",
+    "title": "Modelling continuous outcomes",
+    "section": "",
+    "text": "Download the slides",
+    "crumbs": [
+      "Materials",
+      "Week 4",
+      "[W4] Slides and Notes"
     ]
   }
 ]
