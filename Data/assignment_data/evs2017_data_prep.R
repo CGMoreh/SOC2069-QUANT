@@ -1,19 +1,36 @@
-#############################################################################################################################################################
-#####  Data preparation for SOC2069 workshops and assignments ###############################################################################################
-#####  Prepared by: Dr. Chris Moreh                           ###############################################################################################
-#####  Date: October 2024                                     ###############################################################################################
-#############################################################################################################################################################
+###############################################################################################
+#####
+#####  Data preparation script for SOC2069 
+#####  
+#####   SOC2069 is an introductory quantitative methods module (course) for 2nd-year sociology 
+#####   students at Newcastle University (United Kingdom)
+#####
+#####   The aim of this script is to prepare original raw data from the European Values Study 2017
+#####   for use in workshops and assignments by students
+#####
+#####   The script provides a complete data management pipeline from the raw data files that are
+#####   freely available (upon registration) from the survey project's website
+#####
+#####   The datasets produced are for single countries and contain only a limited number of variables 
+#####   selected for answering the specific toy research questions set as an assignment task.
+#####   They are therefore not suitable for real research purposes. 
+#####   
+#####  Prepared by: Dr. Chris Moreh                           
+#####
+#####  Date: October 2024                                   
+#####
+###############################################################################################
 
 
-## Install and load packages ################################################################################################################################
+## Install and load packages ##################################################################
 
 if (!require("pacman")) install.packages("pacman")
 
 pacman::p_load(
-  tidyverse, ggrepel, easystats, sjlabelled, sjmisc, archive, fs, DT
+  tidyverse, easystats, sjlabelled, sjmisc, archive, fs, DT
 )
 
-### EVS2017 data preparation ################################################################################################################################
+### EVS2017 data preparation ##################################################################
 
 ## Select variables for each assignment question
 
@@ -104,11 +121,4 @@ for (c in country_codes) {
   evs2017_small |> 
     filter(country_iso3 == c) |> 
     sjlabelled::write_spss(paste0("Data/assignment_data/EVS2017/evs2017_", c, ".sav"))
-}
-
-## Make HTML code for the download links on the website
-for (i in 1:length(country_codes)) {
-  cat(
-    paste0('<li><a class="dropdown-item" href="/Data/assignment_data/EVS2017/evs2017_', country_codes[i], '.sav">', country_names[i], '</a></li> \n')
-  )
 }
