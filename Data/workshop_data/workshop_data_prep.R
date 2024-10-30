@@ -50,6 +50,63 @@ ess10_uk <- data_filter(ess10, "cntry == 'GB'")
 
 sjlabelled::write_stata(ess10_uk, "D:/OneDrive - Newcastle University/GitHub_priv/SOC2069-QUANT/Data/workshop_data/ess10_uk.dta")
 
+##############################################################################
+### Select small data for data transformation demo with JASP
+##############################################################################
+
+data_transformation_all <- data_read("D:/OneDrive - Newcastle University/GitHub_priv/SOC2069-QUANT/Data/workshop_data/ess10_uk.dta", convert_factors = F) |> 
+  select(idno, nwspol, netusoft, netustm, ppltrst, pplfair, pplhlp, polintr, lrscale, health, rlgdnm, rlgatnd, wrclmch) |> 
+  mutate(ppltrst = as.numeric(ppltrst) - 1)
+
+
+
+data_read("D:/OneDrive - Newcastle University/GitHub_priv/SOC2069-QUANT/Data/workshop_data/ess10_uk.dta") |> 
+  select(idno, nwspol, netusoft, netustm, ppltrst, pplfair, pplhlp, polintr, lrscale, health, rlgdnm, rlgatnd, wrclmch) |> 
+  mutate(ppltrst = as.numeric(ppltrst) - 1,
+         pplfair = as.numeric(pplfair) - 1,
+         pplhlp = as.numeric(pplhlp) - 1,
+         lrscale = as.numeric(lrscale) - 1,
+         rlgdnm = as.character(rlgdnm)
+         ) |>
+  filter(idno %in% c(50378, 60555, 92713, 92730, 55709, 51138, 57305, 71215, 80670, 72206, 89194, 91883, 67396, 87715, 84528)) |> 
+  data_write("D:/OneDrive - Newcastle University/GitHub_priv/SOC2069-QUANT/Data/workshop_data/data_transformation.dta")
+
+
+### Further transformations for renaming and labelling exercises
+
+data_read("D:/OneDrive - Newcastle University/GitHub_priv/SOC2069-QUANT/Data/workshop_data/ess10_uk.dta", convert_factors = F) |> 
+  select(idno, nwspol, netusoft, netustm, ppltrst, pplfair, pplhlp, polintr, lrscale, health, rlgdnm, rlgatnd,  wrclmch) |> 
+  mutate(ppltrst = as.numeric(ppltrst) - 1,
+         pplfair = as.numeric(pplfair) - 1,
+         pplhlp = as.numeric(pplhlp) - 1,
+         lrscale = as.numeric(lrscale) - 1) |>
+  filter(idno %in% c(50378, 60555, 92713, 92730, 55709, 51138, 57305, 71215, 80670, 72206, 89194, 91883, 67396, 87715, 84528)) |> 
+  mutate(across(nwspol:wrclmch, ~ as.numeric(.x)),
+         A1 = nwspol, 
+         A2 = netusoft, 
+         A3 = netustm, 
+         A4 = ppltrst, 
+         A5 = pplfair, 
+         A6 = pplhlp, 
+         B1 = polintr, 
+         B26 = lrscale, 
+         C7 = health, 
+         C12 = rlgdnm, 
+         C16 = rlgatnd, 
+         C32 = wrclmch,
+         A3 = case_when(idno == 71215 & is.na(A3) ~ 7777,
+                        idno == 80670 & is.na(A3) ~ 8888, 
+                        TRUE ~ A3),
+         A5 = case_when(idno == 80670 & is.na(A5) ~ 88, TRUE ~ A5),
+         A6 = case_when(idno == 72206 & is.na(A6) ~ 77, TRUE ~ A6),
+         C12 = case_when(idno == 80670 & is.na(C12) ~ 77, TRUE ~ C12)
+         ) |> 
+  select(idno, A1:C32) |> 
+  data_write("D:/OneDrive - Newcastle University/GitHub_priv/SOC2069-QUANT/Data/workshop_data/data_labelling.dta")
+
+
+
+
 
 #  WVS7 #######################################################################
 

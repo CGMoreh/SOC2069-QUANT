@@ -63,6 +63,7 @@ wvs_vars <- c(paste0("Q", c(
             
           ### Various covariates
             47, 50, 52, 56,
+            64:89,                        # confidence in institutions
             106:111,                      # political/economic values
             131:138,                      # neighbourhood safety
             260, 263:265, 273:275, 
